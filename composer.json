@@ -1,0 +1,28 @@
+{
+    "name": "00f100/fcphp-sinput",
+    "type": "package",
+    "version": "0.1.0",
+    "description": "Package to clean input content",
+    "keywords": ["package", "input", "security", "clean", "php7", "fcphp"],
+    "homepage": "https://github.com/00f100/fcphp-sinput",
+    "authors": [
+        {
+            "name": "João Moraes",
+            "email": "joaomoraesbr@gmail.com",
+            "homepage": "https://github.com/00f100"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "00f100/phpdbug": "*",
+        "phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FcPhp\\SInput\\": "src/",
+            "FcPhp\\SInput\\Test\\": "tests/"
+        }
+    }
+}
